@@ -4,4 +4,7 @@ API
 .. autosummary::
    :toctree: generated
 
-   uq4rw7demo
+.. automodule:: uq4rw7demo
+    :members:
+    :undoc-members:
+    :show-inheritance:
