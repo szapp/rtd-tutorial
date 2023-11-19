@@ -1,6 +1,8 @@
 """
 Documentation
 """
+from . import __version__
+
 __all__ = [
     'foo',
 ]
@@ -9,4 +11,4 @@ def foo():
     """
     Doc string
     """
-    return True
+    return __version__
