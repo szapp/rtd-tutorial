@@ -9,6 +9,6 @@ __all__ = [
 
 def foo():
     """
-    Doc string
+    Function doc string
     """
     return __version__
