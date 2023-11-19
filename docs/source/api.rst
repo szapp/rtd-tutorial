@@ -4,4 +4,4 @@ API
 .. autosummary::
    :toctree: generated
 
-   lumache
+   uq4rw7demo
