@@ -1,8 +1,29 @@
 [build-system]
-requires = ["flit_core >=3.2,<4"]
-build-backend = "flit_core.buildapi"
+requires = ["setuptools>=61.0.0", "cython"]
+build-backend = "setuptools.build_meta"
 
 [project]
-name = "lumache"
-authors = [{name = "Graziella", email = "graziella@lumache"}]
-dynamic = ["version", "description"]
+name = "uq4rw7demo"
+authors = [
+    {name = "Sören Zapp"},
+]
+description = "Demo testing"
+readme = {file = "README.md", content-type = "text/markdown"}
+license = {text = "MIT"}
+requires-python = ">=3.7"
+dependencies = [
+    "numpy>=1.16.0",
+    "h5py>=3.2",
+    "pathlib",
+    "tqdm",
+]
+dynamic = ["version"]
+
+[project.urls]
+Repository = "https://github.com/szapp/rtd-tutorial.git"
+
+[tool.setuptools.dynamic]
+version = {attr = "uq4rw7demo.__version__"}
+
+[tool.setuptools]
+packages = ["uq4rw7demo"]
