@@ -9,8 +9,14 @@ authors = [
 ]
 description = "Demo testing"
 readme = {file = "README.md", content-type = "text/markdown"}
-license = {text = "MIT"}
 requires-python = ">=3.7"
+keywords = ["retina", "stimulus", "white noise"]
+license = {text = "MIT"}
+classifiers = [
+    "Intended Audience :: Science/Research",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+]
 dependencies = [
     "numpy>=1.16.0",
     "h5py>=3.2",
