@@ -3,7 +3,7 @@ name: build
 on:
   push:
     tags:
-      - '**'
+      - '[Vv]?[0-9]+.[0-9]+*'
 
 permissions:
   contents: read

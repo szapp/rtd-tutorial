@@ -1,6 +1,6 @@
 Template for the Read the Docs tutorial
 =======================================
-[![Build status](https://github.com/szapp/rtd-tutorial/actions/workflows/PyPI.yml/badge.svg)](https://github.com/szapp/rtd-tutorial/deployments)
+[![Build status](https://github.com/szapp/rtd-tutorial/actions/workflows/pypi.yml/badge.svg)](https://github.com/szapp/rtd-tutorial/deployments/PyPI)
 [![Documentation status](https://readthedocs.org/projects/szapp-rtd-tutorial/badge/?version=stable)](https://szapp-rtd-tutorial.readthedocs.io/en/stable/?badge=stable)
 [![PyPi version](https://img.shields.io/pypi/v/uq4rw7demo.svg)](https://pypi.python.org/pypi/uq4rw7demo)
 
