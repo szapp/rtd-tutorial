@@ -21,6 +21,8 @@ dynamic = ["version"]
 
 [project.urls]
 Repository = "https://github.com/szapp/rtd-tutorial.git"
+"Bug Tracker" = "https://github.com/szapp/rtd-tutorial/issues"
+Issues = "https://github.com/szapp/rtd-tutorial/issues"
 
 [tool.setuptools.dynamic]
 version = {attr = "uq4rw7demo.__version__"}

@@ -16,7 +16,7 @@ pip install -i https://test.pypi.org/simple/ uq4rw7demo
 ```
 
 ## Contact
-For feedback and bug reporst, please use the [Github issue tracker](https://github.com/szapp/rtd-tutorial/issues).
+For feedback and bug reports, please use the [Github issue tracker](https://github.com/szapp/rtd-tutorial/issues).
 
 ----
 
