@@ -3,9 +3,7 @@ name: build
 on:
   push:
     tags:
-      - v**
-  release:
-    types: [published]
+      - **
 
 permissions:
   contents: read
