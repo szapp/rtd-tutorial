@@ -40,8 +40,8 @@ mathjax_path = ('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/'
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
-    'attrs': ('https://www.attrs.org/en/stable/', None),
+    'sphinx': ('https://sphinx-doc.org/en/master/', None),
+    'attrs': ('https://attrs.org/en/stable/', None),
     'numpy': ('https://numpy.org/doc/stable/', None),
     'scipy': ('https://docs.scipy.org/doc/scipy/', None),
     'matplotlib': ('https://matplotlib.org/stable/', None),
@@ -55,6 +55,12 @@ exclude_patterns = ['_build', 'Thumbs.db', '.DS_Store']
 # -- Options for HTML output
 
 html_theme = 'sphinx_rtd_theme'
+html_theme_options = {
+    'navigation_depth': 3,
+    'collapse_navigation': False,
+    'titles_only': True,
+}
+html_show_sourcelink = False
 
 # -- Options for EPUB output
 
