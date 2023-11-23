@@ -5,7 +5,7 @@
 import os
 import sys
 sys.path.insert(0, os.path.abspath('../../'))
-import uq4rw7demo
+import uq4rw7demo  # noqa: E402
 
 # -- Project information
 
@@ -40,7 +40,7 @@ mathjax_path = ('https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.5/'
 
 intersphinx_mapping = {
     'python': ('https://docs.python.org/3/', None),
-    'sphinx': ('https://sphinx-doc.org/en/master/', None),
+    'sphinx': ('https://www.sphinx-doc.org/en/master/', None),
     'attrs': ('https://attrs.org/en/stable/', None),
     'numpy': ('https://numpy.org/doc/stable/', None),
     'scipy': ('https://docs.scipy.org/doc/scipy/', None),
@@ -61,7 +61,6 @@ html_theme_options = {
     'titles_only': True,
 }
 html_show_sourcelink = False
-
 html_static_path = ['_static']
 html_css_files = [
     'css/remove_links.css',

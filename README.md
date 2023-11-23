@@ -1,12 +1,12 @@
 Template for the Read the Docs tutorial
 =======================================
 [![Build status](https://github.com/szapp/rtd-tutorial/actions/workflows/pypi.yml/badge.svg)](https://github.com/szapp/rtd-tutorial/deployments/PyPI)
-[![Documentation status](https://readthedocs.org/projects/szapp-rtd-tutorial/badge/?version=stable)](https://szapp-rtd-tutorial.readthedocs.io/en/stable/?badge=stable)
+[![Documentation status](https://readthedocs.org/projects/szapp-rtd-tutorial/badge/?version=latest)](https://szapp-rtd-tutorial.readthedocs.org/?badge=latest)
 [![PyPi version](https://img.shields.io/pypi/v/uq4rw7demo.svg)](https://pypi.python.org/pypi/uq4rw7demo)
 
 This repository serves as to test and understand Read The Docs and PyPI deployment.
 
-The documentation is available at [szapp-rtd-tutorial.readthedocs.org](http://szapp-rtd-tutorial.readthedocs.org/en/stable).
+The documentation is available at [szapp-rtd-tutorial.readthedocs.org](https://szapp-rtd-tutorial.readthedocs.org).
 
 ## Installation
 Install using `pip` from command-line:
