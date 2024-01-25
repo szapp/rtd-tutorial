@@ -9,7 +9,7 @@ This repository serves as to test and understand Read The Docs and PyPI deployme
 The documentation is available at [szapp-rtd-tutorial.readthedocs.org](https://szapp-rtd-tutorial.readthedocs.org).
 
 ## Installation
-Install using `pip` from command-line:
+Install using `pip` from command-line (TestPyPI):
 
 ```bash
 pip install -i https://test.pypi.org/simple/ uq4rw7demo
