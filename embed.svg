@@ -1,19 +1,19 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="120" height="24">
+<svg xmlns="http://www.w3.org/2000/svg" width="100" height="100">
   <defs>
     <filter id="image1">
-      <feImage href="https://raw.githubusercontent.com/szapp/rtd-tutorial/svg-mask/basic.svg"
+      <feImage href="https://api.szapp.de/svg"
     crossorigin="use-credentials" />
     </filter>
     <filter id="image2">
-      <feImage href="https://raw.githubusercontent.com/szapp/rtd-tutorial/svg-mask/basic.svg"
+      <feImage href="https://api.szapp.de/svg"
     crossorigin="anonymous" />
     </filter>
   </defs>
 
-  <image x="0" y="0" href="https://raw.githubusercontent.com/szapp/rtd-tutorial/svg-mask/basic.svg"
+  <image x="0" y="0" href="https://api.szapp.de/svg"
     crossorigin="use-credentials" />
-  <image x="30" y="0" href="https://raw.githubusercontent.com/szapp/rtd-tutorial/svg-mask/basic.svg"
+  <image x="0" y="0" href="https://api.szapp.de/svg"
     crossorigin="anonymous" />
-  <rect x="60" y="0" width="27" height="24" style="filter:url(#image1);" />
-  <rect x="90" y="0" width="27" height="24" style="filter:url(#image2);" />
+  <rect x="0" y="0" width="100" height="100" style="filter:url(#image1);" />
+  <rect x="0" y="0" width="100" height="100" style="filter:url(#image2);" />
 </svg>
