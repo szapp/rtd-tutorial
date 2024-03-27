@@ -31,8 +31,10 @@ https://docs.readthedocs.io/en/stable/tutorial/
 ---
 
 
-
-### <a href="https://example.com"><img alt="✔️" src="../../assets/20203034/c426f841-69e1-424a-81e2-621fc4538a34" width="27px" />&nbsp;1. Step one</a>
-### <a href="https://example.com"><img alt="⚪" src="../../assets/20203034/e31b2c7c-ac0f-442d-a55e-10b5e771e117" width="27px" />&nbsp;2. Step two</a>
+### [![✔️](../../assets/20203034/c426f841-69e1-424a-81e2-621fc4538a34)&nbsp;2. Step one](https://example.com)
+### <a href="https://example.com"><img alt="✔️" src="../../assets/20203034/c426f841-69e1-424a-81e2-621fc4538a34" />&nbsp;2. Step one</a>
+### <a href="https://example.com"><img alt="✔️" src="../../assets/20203034/c426f841-69e1-424a-81e2-621fc4538a34" width="" />&nbsp;3. Step one</a>
+### <a href="https://example.com"><img alt="✔️" src="../../assets/20203034/c426f841-69e1-424a-81e2-621fc4538a34" width="27px" />&nbsp;4. Step one</a>
+### <a href="https://example.com"><img alt="⚪" src="../../assets/20203034/e31b2c7c-ac0f-442d-a55e-10b5e771e117" width="27px" />&nbsp;5. Step two</a>
 
 
