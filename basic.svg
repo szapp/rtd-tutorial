@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="24">
+  <style>
+    text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+      font-weight: 600;
+      font-size: 1.25em;
+      line-height: 1.25;
+    }
+  </style>
+  <text y="19" fill="#000">👉</text>
+</svg>
