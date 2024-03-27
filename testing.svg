@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="27" height="24" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <style>
+    text {
+      font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Noto Sans', Helvetica, Arial, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji';
+      font-weight: 600;
+      font-size: 1.25em;
+      line-height: 1.25;
+    }
+  </style>
+  <defs>
+    <filter id="invert">
+        <feColorMatrix in="SourceGraphic" type="matrix" values="-1 0 0 0 1 0 -1 0 0 1 0 0 -1 0 1 0 0 0 1 0" />
+    </filter>
+    <g id="maskimg">
+        <rect width="100%" height="100%" fill="black" />
+        <image xlink:href="./mask.svg" />
+    </g>
+    <mask id="complete">
+      <use href="#maskimg" filter="url(#invert)" />
+    </mask >
+    <mask id="not-complete">
+      <use href="#maskimg" />
+    </mask >
+  </defs>
+  <text x="0" y="19" mask="url(#complete)">✅</text>
+  <text x="0" y="19" mask="url(#not-complete)">👉</text>
+</svg>
